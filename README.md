@@ -3,7 +3,7 @@ IP Address:
 http://34.224.22.215/ (This address does not enable you to log into your Google account using Google OAuth 
 http://34.224.22.215.nip.io/ (Use this address as it enables you to log in with you
 google Oauth)
-URL:
+URL:https://github.com/garavsoni1234/Linux-Server-Configuration
 
 Summary of software installed:
 Ubuntu 16.04 (Downloaded through the windows store)
