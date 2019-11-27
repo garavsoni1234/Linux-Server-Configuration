@@ -194,6 +194,8 @@ replace line
 line 77: `result = json.loads(h.request(url, 'GET')[1])` to 
 `result = json.loads(h.request(url, "GET")[1].decode("utf-8"))`
 
+`PermitRootLogin yes` by `sudo nano /etc/ssh/sshd_config` file
+
 List of third Party resources:
 
 https://medium.com/@hvedam/aws-light-sail-and-flask-25f093081ea
