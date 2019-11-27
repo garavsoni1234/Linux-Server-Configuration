@@ -11,6 +11,7 @@ Ubuntu 16.04 (Downloaded through the windows store)
 
 
 Summary of configuration made:
+
 Step 1: Using Amazon Lightsail
 Login to Lightsail and create an instance
 Choose the Ubuntu 16.04 LTS platform
