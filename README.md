@@ -1,4 +1,6 @@
 
+`Notes to Reviewer`
+
 IP Address:
 http://34.224.22.215/ (This address does not enable you to log into your Google account using Google OAuth 
 http://34.224.22.215.nip.io/ (Use this address as it enables you to log in with you
