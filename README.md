@@ -186,7 +186,7 @@ application.secret_key = "..."
 
 Issues to resolve:
 
-Go into the main project file __init__.py and replace `xrange` to just `range`
+Go into the main project file `__init__.py` and replace `xrange` to just `range`
 replace line
 line 77: `result = json.loads(h.request(url, 'GET')[1])` to 
 `result = json.loads(h.request(url, "GET")[1].decode("utf-8"))`
