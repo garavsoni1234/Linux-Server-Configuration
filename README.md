@@ -193,3 +193,11 @@ Go into the main project file `__init__.py` and replace `xrange` to just `range`
 replace line
 line 77: `result = json.loads(h.request(url, 'GET')[1])` to 
 `result = json.loads(h.request(url, "GET")[1].decode("utf-8"))`
+
+List of third Party resources:
+
+https://medium.com/@hvedam/aws-light-sail-and-flask-25f093081ea
+Stackoverflow.com
+https://www.cyberciti.biz/faq/linux-set-change-password-how-to/
+https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-18-04
+https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-1804
