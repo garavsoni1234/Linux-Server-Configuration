@@ -166,7 +166,9 @@ Add the following lines to /etc/apache2/sites-available/catalog.conf and add the
 </VirtualHost>`
 enable the host: `sudo a2ensite catalog`
 Reload Apache: `sudo service apache2 reload`
-Step 17: Set up the Flask application
+
+Step 16: Set up the Flask application
+
 Create /var/www/catalog/catalog.wsgi file add the following lines: by `sudo nano /var/www/catalog/catalog/catalog.wsgi`
 	activate_this = '/var/www/catalog/catalog/venv3/bin/activate_this.py'
 with open(activate_this) as file_:
@@ -183,6 +185,7 @@ from catalog import app as application
 application.secret_key = "..."
 
 Issues to resolve:
+
 Go into the main project file __init__.py and replace `xrange` to just `range`
 replace line
 line 77: `result = json.loads(h.request(url, 'GET')[1])` to 
