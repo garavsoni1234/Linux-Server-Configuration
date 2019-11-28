@@ -194,7 +194,7 @@ replace line
 line 77: `result = json.loads(h.request(url, 'GET')[1])` to 
 `result = json.loads(h.request(url, "GET")[1].decode("utf-8"))`
 
-`PermitRootLogin yes` by `sudo nano /etc/ssh/sshd_config` file
+`PermitRootLogin no` by `sudo nano /etc/ssh/sshd_config` file
 
 List of third Party resources:
 
